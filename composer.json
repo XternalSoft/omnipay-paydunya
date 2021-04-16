@@ -1,0 +1,36 @@
+{
+  "name": "xternalsoft/omnipay-paydunya",
+  "type": "library",
+  "description": "PayDunya driver for the Omnipay PHP payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "paydunya",
+    "purchase"
+  ],
+  "homepage": "https://github.com/XternalSoft/omnipay-paydunya",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Grégory Parrot",
+      "email": "gparrot@xternalsoft.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\PayDunya\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "^3",
+    "paydunya/paydunya": "^1.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3",
+    "squizlabs/php_codesniffer": "^3"
+  },
+  "prefer-stable": true
+}
